@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SalesUserRoutes_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SalesUserRoutes_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SalesUserRoutes_Get`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     Var_Profile_Id varchar(20),

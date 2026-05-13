@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminComplaints_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminComplaints_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminComplaints_Get`(
 	var_Org_Id VARCHAR(20),
     var_Method_Name VARCHAR(20),
     var_Complaint_Id VARCHAR(20),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminRebate_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminRebate_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminRebate_Get`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
     var_User_Id varchar(45),

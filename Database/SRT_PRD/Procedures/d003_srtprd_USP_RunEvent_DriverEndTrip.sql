@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_RunEvent_DriverEndTrip` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_RunEvent_DriverEndTrip`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_RunEvent_DriverEndTrip`()
 BEGIN
 
 update t021_tripdocument_header t021

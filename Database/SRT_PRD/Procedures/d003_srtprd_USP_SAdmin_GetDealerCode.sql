@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdmin_GetDealerCode` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdmin_GetDealerCode`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdmin_GetDealerCode`()
 BEGIN
 
 select Dealer_Code from mu08_dealer where Is_Active = 1 and Is_Deleted = 0;

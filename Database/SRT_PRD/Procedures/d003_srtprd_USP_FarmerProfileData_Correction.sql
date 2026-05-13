@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_FarmerProfileData_Correction` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_FarmerProfileData_Correction`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_FarmerProfileData_Correction`(
 	var_Method_Name varchar(50),
 	var_Org_Id varchar(20),
 	var_Profile_Id varchar(20),

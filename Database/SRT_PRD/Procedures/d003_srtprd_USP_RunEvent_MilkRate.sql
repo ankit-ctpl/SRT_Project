@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_RunEvent_MilkRate` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_RunEvent_MilkRate`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_RunEvent_MilkRate`()
 BEGIN
 		DROP TEMPORARY TABLE IF EXISTS temp_data;
         CREATE TEMPORARY TABLE temp_data (id INT AUTO_INCREMENT PRIMARY KEY, org_id varchar(20));

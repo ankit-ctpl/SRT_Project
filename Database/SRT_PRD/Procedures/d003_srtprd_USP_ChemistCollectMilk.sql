@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_ChemistCollectMilk` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_ChemistCollectMilk`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_ChemistCollectMilk`(
 Var_Method_Name varchar(30),
 Var_Org_Id varchar(20),
 Var_MCC_Id varchar(20),

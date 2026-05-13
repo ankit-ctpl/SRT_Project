@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminDealerCode_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminDealerCode_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminDealerCode_Get`(
 var_Org_Id varchar(20),
 var_Dealer_Id varchar(20)
 )

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminState_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminState_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminState_Get`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     var_State_Id varchar(20),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_FarmerService_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_FarmerService_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_FarmerService_Set`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 var_MCC_Id varchar(20),

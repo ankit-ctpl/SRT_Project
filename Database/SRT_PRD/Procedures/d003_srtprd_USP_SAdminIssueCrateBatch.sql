@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminIssueCrateBatch` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminIssueCrateBatch`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminIssueCrateBatch`(
 var_Org_Id varchar(20),
 var_Dealer_Code varchar(20),
 var_Dealer_Name varchar(100),

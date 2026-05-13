@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminSalesInquiry_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminSalesInquiry_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminSalesInquiry_Get`(
 	var_Method_Name VARCHAR(20),
     var_Org_Id VARCHAR(10),
     var_SalesInquiry VARCHAR(20),

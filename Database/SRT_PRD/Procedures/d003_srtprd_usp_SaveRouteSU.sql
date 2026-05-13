@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `usp_SaveRouteSU` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `usp_SaveRouteSU`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `usp_SaveRouteSU`(
     IN v_method_name VARCHAR(50),
     IN v_org_id VARCHAR(50),
     IN v_route_name VARCHAR(200),

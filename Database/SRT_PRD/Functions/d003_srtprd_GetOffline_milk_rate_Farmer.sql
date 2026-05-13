@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `GetOffline_milk_rate_Farmer` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `GetOffline_milk_rate_Farmer`(
+CREATE DEFINER=`root`@`localhost` FUNCTION `GetOffline_milk_rate_Farmer`(
     var_org_id VARCHAR(20),
     var_mcc_id VARCHAR(20),
     var_farmer_id VARCHAR(20),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_DriverPerformance` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_DriverPerformance`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_DriverPerformance`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_Date varchar(20),

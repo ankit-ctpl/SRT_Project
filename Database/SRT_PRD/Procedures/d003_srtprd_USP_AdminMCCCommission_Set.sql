@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMCCCommission_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMCCCommission_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMCCCommission_Set`(
 	var_Method_Name varchar(50),
     var_Org_Id varchar(10),
 	var_MPPI_Id varchar(20),

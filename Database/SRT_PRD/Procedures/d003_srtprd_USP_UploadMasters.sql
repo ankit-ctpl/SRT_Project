@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_UploadMasters` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_UploadMasters`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_UploadMasters`(
 Var_Method_Name varchar(50),
 Var_Org_Id varchar(20)
 )

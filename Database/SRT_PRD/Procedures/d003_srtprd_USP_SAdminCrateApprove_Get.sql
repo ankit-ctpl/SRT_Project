@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminCrateApprove_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminCrateApprove_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminCrateApprove_Get`(
 	var_Org_Id VARCHAR(10),
     var_Method_Name VARCHAR(100),
     var_User_Id VARCHAR(20),

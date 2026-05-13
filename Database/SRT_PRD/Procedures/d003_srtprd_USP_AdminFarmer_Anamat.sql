@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminFarmer_Anamat` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminFarmer_Anamat`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminFarmer_Anamat`(
 var_method_name varchar(30),
 var_org_id varchar(30),
 var_farmer_id varchar(30),

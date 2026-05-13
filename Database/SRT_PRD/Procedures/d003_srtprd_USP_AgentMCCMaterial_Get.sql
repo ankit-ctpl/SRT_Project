@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentMCCMaterial_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentMCCMaterial_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentMCCMaterial_Get`(
 	var_Method_Name varchar(50),
 	var_Org_Id varchar(20),
     var_User_Id varchar(20),

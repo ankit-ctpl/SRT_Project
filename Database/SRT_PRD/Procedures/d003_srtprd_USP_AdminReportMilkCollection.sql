@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminReportMilkCollection` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminReportMilkCollection`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminReportMilkCollection`(
 	IN `var_org_id` VARCHAR(10),
 	IN `var_Method_Name` VARCHAR(20),
 	IN `var_Report_Type` VARCHAR(50),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminOrder_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminOrder_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminOrder_Set`(
 	var_Method_Name VARCHAR(50),
     var_Org_Id VARCHAR(10),
 	var_Order_Id VARCHAR(20),

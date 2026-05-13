@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminRoute_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminRoute_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminRoute_Set`(
     IN var_Method_Name VARCHAR(50),
     IN var_Org_Id VARCHAR(10),
     IN var_Entry_Id VARCHAR(20),      -- Acts as Route_Id

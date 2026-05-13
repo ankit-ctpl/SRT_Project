@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_DriverManageCans` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_DriverManageCans`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_DriverManageCans`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_Profile_Id varchar(20),

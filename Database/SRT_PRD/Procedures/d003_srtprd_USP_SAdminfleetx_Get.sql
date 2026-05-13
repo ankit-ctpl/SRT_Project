@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminfleetx_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminfleetx_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminfleetx_Get`(
 	var_Method_Name varchar(50),
     var_Org_Id varchar(10),
     var_Route_Id varchar(20),

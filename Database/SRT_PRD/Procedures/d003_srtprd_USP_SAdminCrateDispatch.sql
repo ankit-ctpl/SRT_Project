@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminCrateDispatch` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminCrateDispatch`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminCrateDispatch`(
     var_Method_Name VARCHAR(20),
 	var_Org_Id VARCHAR(10),
     Var_Dealer_Id varchar(30),

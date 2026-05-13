@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminTarget_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminTarget_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminTarget_Set`(
 	var_Org_Id VARCHAR(10),
     var_Method_Name VARCHAR(20),
     var_Type VARCHAR(20),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminBusinessPartnerInSAP_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminBusinessPartnerInSAP_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminBusinessPartnerInSAP_Set`(
 	IN `var_Method_Name` varchar(255),
 	IN `var_Org_Id` varchar(10),
     IN `var_BusinessPartner_Type` varchar(20),

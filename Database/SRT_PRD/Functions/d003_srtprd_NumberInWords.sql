@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `NumberInWords` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `NumberInWords`(n INT) RETURNS varchar(1000) CHARSET utf8mb4
+CREATE DEFINER=`root`@`localhost` FUNCTION `NumberInWords`(n INT) RETURNS varchar(1000) CHARSET utf8mb4
     DETERMINISTIC
 BEGIN
 declare ans varchar(1000);

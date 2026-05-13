@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminGainLossEntry_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminGainLossEntry_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminGainLossEntry_Set`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
     var_MilkCollectionDairy_Id varchar(20),

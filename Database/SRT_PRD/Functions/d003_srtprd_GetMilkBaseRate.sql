@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `GetMilkBaseRate` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `GetMilkBaseRate`(
+CREATE DEFINER=`root`@`localhost` FUNCTION `GetMilkBaseRate`(
 	var_Org_Id varchar(20),
 	var_MCC_Id varchar(20),
     var_CollectionShift_Id varchar(20),

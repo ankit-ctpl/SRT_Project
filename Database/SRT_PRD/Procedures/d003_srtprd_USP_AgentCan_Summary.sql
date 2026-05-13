@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentCan_Summary` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentCan_Summary`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentCan_Summary`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_Material_Id varchar(20),

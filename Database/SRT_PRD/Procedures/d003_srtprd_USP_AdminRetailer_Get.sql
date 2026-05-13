@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminRetailer_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminRetailer_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminRetailer_Get`(
     IN var_Method_Name VARCHAR(20),
     IN var_Org_Id VARCHAR(10),
     IN var_User_Id VARCHAR(20),

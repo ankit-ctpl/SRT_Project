@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminManageAgentIncentiveSchemes_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminManageAgentIncentiveSchemes_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminManageAgentIncentiveSchemes_Set`(
 	var_Method_Name VARCHAR(20),
     var_Org_Id VARCHAR(10),
     var_User_Id VARCHAR(20),

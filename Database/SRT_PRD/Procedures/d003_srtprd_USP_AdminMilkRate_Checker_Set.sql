@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMilkRate_Checker_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMilkRate_Checker_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMilkRate_Checker_Set`(
 IN `var_Method_Name` varchar(255),
 IN `var_Org_Id` varchar(10),
 var_User_Id varchar(20),

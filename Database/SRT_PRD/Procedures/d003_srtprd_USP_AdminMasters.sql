@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMasters` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMasters`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMasters`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
     var_Param1 varchar(20),

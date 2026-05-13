@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `SalesCommon_Master` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `SalesCommon_Master`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `SalesCommon_Master`(
     var_Method_Name varchar(100),
     var_Org_Id varchar(10),
     var_ParentField_Id varchar(20)

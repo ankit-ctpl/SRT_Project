@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `test` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `test`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `test`()
 BEGIN
 	select Farmer_Id,MCC_Id,Invoice_Date from f012_farmer_invoice 
 	where MCC_Id ='M005242000133'

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentDeductions_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentDeductions_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentDeductions_Set`(
 	var_Org_Id VARCHAR(20),
     var_Method_Name VARCHAR(20),
     var_Deductions_Id VARCHAR(45),

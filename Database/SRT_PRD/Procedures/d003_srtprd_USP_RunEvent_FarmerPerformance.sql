@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_RunEvent_FarmerPerformance` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_RunEvent_FarmerPerformance`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_RunEvent_FarmerPerformance`()
 BEGIN
 		Select 1;
 END ;;

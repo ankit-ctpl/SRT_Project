@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminOfflineInvoicePrint_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminOfflineInvoicePrint_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminOfflineInvoicePrint_Get`(
 	var_Method_Name varchar(255),
 	var_Org_Id varchar(255),
     var_Param1 varchar(50),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMachine_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMachine_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMachine_Set`(
 var_Org_Id varchar(10),
 var_Method_Name varchar(45),
 var_Machine_Type varchar(45),

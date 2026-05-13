@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMilkCollectionInSAP_Set_Test` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMilkCollectionInSAP_Set_Test`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMilkCollectionInSAP_Set_Test`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     var_Entry_Id varchar(20),

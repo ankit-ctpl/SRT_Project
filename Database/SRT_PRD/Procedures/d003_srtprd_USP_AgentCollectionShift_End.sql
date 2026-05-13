@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentCollectionShift_End` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentCollectionShift_End`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentCollectionShift_End`()
 BEGIN
 
 	set sql_require_primary_key = 0 ;

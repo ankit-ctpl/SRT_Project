@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminDeductionItem_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminDeductionItem_Get`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminDeductionItem_Get`()
 BEGIN
 
 END ;;

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentSign_In` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentSign_In`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentSign_In`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
 	var_Mobile_No varchar(12),

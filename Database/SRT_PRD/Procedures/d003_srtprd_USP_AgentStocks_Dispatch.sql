@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentStocks_Dispatch` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentStocks_Dispatch`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentStocks_Dispatch`(
 Var_Method_Name varchar(40),
 Var_Org_Id varchar(20),
 Var_MCC_Id varchar(20),

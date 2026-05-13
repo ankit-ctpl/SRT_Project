@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `Crate_Dump` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `Crate_Dump`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `Crate_Dump`(
 	var_Method_Name varchar(50),
 	var_Org_Id varchar(20),
 	var_XML_Data longtext

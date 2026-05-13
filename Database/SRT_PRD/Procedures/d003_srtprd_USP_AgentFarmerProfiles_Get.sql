@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentFarmerProfiles_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentFarmerProfiles_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentFarmerProfiles_Get`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
     var_Farmer_Id varchar(20)

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMCCVersion_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMCCVersion_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMCCVersion_Set`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
 	var_MCC_Id varchar(20),

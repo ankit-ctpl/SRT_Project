@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminFreight_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminFreight_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminFreight_Get`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     var_User_Id varchar(20),

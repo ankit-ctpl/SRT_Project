@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SalesAdminRoleMenu_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SalesAdminRoleMenu_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SalesAdminRoleMenu_Get`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(20),
 	var_Role_Id varchar(20)

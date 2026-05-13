@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminSAPApiLog_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminSAPApiLog_Get`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminSAPApiLog_Get`()
 BEGIN
 
 END ;;

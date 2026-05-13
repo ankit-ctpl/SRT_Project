@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminRoute_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminRoute_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminRoute_Get`(
     IN var_Method_Name VARCHAR(20), -- 'GetAll' or 'GetById'
     IN var_Org_Id VARCHAR(10),
     IN var_Search_Text VARCHAR(20),

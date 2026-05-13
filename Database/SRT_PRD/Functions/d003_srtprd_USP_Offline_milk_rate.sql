@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `USP_Offline_milk_rate` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `USP_Offline_milk_rate`(
+CREATE DEFINER=`root`@`localhost` FUNCTION `USP_Offline_milk_rate`(
     var_org_id VARCHAR(20),
     var_mcc_id VARCHAR(20),
     var_milk_type_id VARCHAR(20),

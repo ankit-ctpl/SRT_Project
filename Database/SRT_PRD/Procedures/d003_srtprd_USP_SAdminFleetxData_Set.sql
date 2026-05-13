@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminFleetxData_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminFleetxData_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminFleetxData_Set`(
 var_Method_Name varchar(30),
 var_XML_Data longtext
 )

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdmin_ProductUOM` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdmin_ProductUOM`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdmin_ProductUOM`(
 var_Org_Id VARCHAR (40),
 Var_Method_Name varchar(50),
 var_xml_data longtext

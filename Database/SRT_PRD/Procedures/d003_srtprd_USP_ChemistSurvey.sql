@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_ChemistSurvey` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_ChemistSurvey`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_ChemistSurvey`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_Profile_Id varchar(20),

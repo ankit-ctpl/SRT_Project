@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `tempcheckdata` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `tempcheckdata`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `tempcheckdata`()
 BEGIN
 		DROP TEMPORARY TABLE IF EXISTS temp_Report;
 		CREATE TEMPORARY TABLE temp_Report ( 

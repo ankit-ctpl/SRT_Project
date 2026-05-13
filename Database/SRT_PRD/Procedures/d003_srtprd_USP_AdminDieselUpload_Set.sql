@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminDieselUpload_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminDieselUpload_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminDieselUpload_Set`(
 	var_Method_Name VARCHAR(255),
     var_Org_Id VARCHAR(20),
     var_DieselUpload_Id VARCHAR(45),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_Number_Range` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_Number_Range`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_Number_Range`(
 	var_Table_Name varchar(50),
 	var_Year_Id varchar(20),
 	var_Number_Prefix varchar(20),

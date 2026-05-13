@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `new_one_two` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `new_one_two`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `new_one_two`(
 Var_Method_Name varchar(255),
 Var_Org_Id varchar(20),
 Var_MCC_Id varchar(20),

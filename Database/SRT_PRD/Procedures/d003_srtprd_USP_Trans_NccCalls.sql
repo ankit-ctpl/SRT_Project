@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_Trans_NccCalls` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_Trans_NccCalls`(IN `var_method` VARCHAR(50), IN `var_user_id` VARCHAR(50), IN `var_serviceid` VARCHAR(50), IN `var_remarkid` VARCHAR(50), IN `var_remark` VARCHAR(200), IN `var_latitude` VARCHAR(50), IN `var_longitude` VARCHAR(50), IN `var_call_id` VARCHAR(50), IN `var_sapcall_no` VARCHAR(50), IN `var_propertyid` VARCHAR(50))
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_Trans_NccCalls`(IN `var_method` VARCHAR(50), IN `var_user_id` VARCHAR(50), IN `var_serviceid` VARCHAR(50), IN `var_remarkid` VARCHAR(50), IN `var_remark` VARCHAR(200), IN `var_latitude` VARCHAR(50), IN `var_longitude` VARCHAR(50), IN `var_call_id` VARCHAR(50), IN `var_sapcall_no` VARCHAR(50), IN `var_propertyid` VARCHAR(50))
 if var_method = 'GetLocation' then 
 		BEGIN
         

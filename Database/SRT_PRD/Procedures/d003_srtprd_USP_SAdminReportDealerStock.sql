@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminReportDealerStock` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminReportDealerStock`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminReportDealerStock`(
 	var_Org_id VARCHAR(10),
 	var_Method_Name VARCHAR(20),
 	var_Report_Type VARCHAR(50),

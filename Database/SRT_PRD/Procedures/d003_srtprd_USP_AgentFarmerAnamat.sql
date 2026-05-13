@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentFarmerAnamat` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentFarmerAnamat`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentFarmerAnamat`(
 var_Method_Name varchar(50),
 var_Org_Id varchar(10),
 var_MCC_Id varchar(20),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMissingFarmer_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMissingFarmer_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMissingFarmer_Set`(
 	var_Method_Name varchar(20),
 	var_Org_Id varchar(20),
 	var_User_Id varchar(20),

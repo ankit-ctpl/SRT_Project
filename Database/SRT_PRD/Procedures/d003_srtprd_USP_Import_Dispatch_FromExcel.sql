@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_Import_Dispatch_FromExcel` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_Import_Dispatch_FromExcel`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_Import_Dispatch_FromExcel`(
     IN var_Org_Id VARCHAR(10)
 )
 BEGIN

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_DriverTripHistory_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_DriverTripHistory_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_DriverTripHistory_Get`(
 Var_Method_Name varchar(40),
 Var_Org_Id varchar(20),
 Var_Profile_Id varchar(20),

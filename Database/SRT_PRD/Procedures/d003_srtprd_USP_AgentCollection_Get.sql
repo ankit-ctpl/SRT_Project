@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentCollection_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentCollection_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentCollection_Get`(
 Var_Method_Name varchar(255),
 Var_Org_Id varchar(20),
 Var_MCC_Id varchar(20),

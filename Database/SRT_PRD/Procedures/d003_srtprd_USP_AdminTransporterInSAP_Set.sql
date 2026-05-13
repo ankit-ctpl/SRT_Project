@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminTransporterInSAP_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminTransporterInSAP_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminTransporterInSAP_Set`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
     var_InvoiceData longtext,

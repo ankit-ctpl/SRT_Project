@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminPaymentterm` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminPaymentterm`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminPaymentterm`(
 var_method_name varchar(50),
 var_org_id varchar(20),
 var_xml_data longtext

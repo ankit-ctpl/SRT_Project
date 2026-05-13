@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_DriverManageDelivery` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_DriverManageDelivery`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_DriverManageDelivery`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_IssueStocks_Id varchar(20),

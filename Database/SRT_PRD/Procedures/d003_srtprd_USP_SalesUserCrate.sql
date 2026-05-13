@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SalesUserCrate` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SalesUserCrate`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SalesUserCrate`(
 	Var_Method_Name varchar(255),
     Var_Org_Id varchar(10),
     Var_Profile_Id varchar(20),

@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `1Test` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `1Test`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `1Test`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     var_MilkCollectionDairy_Id varchar(20),

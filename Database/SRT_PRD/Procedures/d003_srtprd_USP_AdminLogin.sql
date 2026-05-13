@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminLogin` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminLogin`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminLogin`(
 	var_Org_Id varchar(20),
     var_Method_Name VARCHAR(20),
     var_Login_Name VARCHAR(45),

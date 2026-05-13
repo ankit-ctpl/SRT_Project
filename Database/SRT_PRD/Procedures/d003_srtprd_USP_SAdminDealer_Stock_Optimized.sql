@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminDealer_Stock_Optimized` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminDealer_Stock_Optimized`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminDealer_Stock_Optimized`(
     IN target_dealer_id VARCHAR(20),
     IN target_dealer_code VARCHAR(20)
 )

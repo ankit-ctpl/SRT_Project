@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminSalesArea_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminSalesArea_Get`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminSalesArea_Get`()
 BEGIN
 	SELECT SalesArea_Code as SalesGroup,SalesOffice_Code as SalesOffice FROM m013_salesarea;
 END ;;

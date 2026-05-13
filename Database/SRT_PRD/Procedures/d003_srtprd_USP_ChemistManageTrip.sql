@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_ChemistManageTrip` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_ChemistManageTrip`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_ChemistManageTrip`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_Route_Trip_Id varchar(20),

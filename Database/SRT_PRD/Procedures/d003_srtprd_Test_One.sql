@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `Test_One` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `Test_One`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `Test_One`(
 	IN `var_org_id` VARCHAR(10),
 	IN `var_Method_Name` VARCHAR(20),
 	IN `var_Report_Type` VARCHAR(50),

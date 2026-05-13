@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminCrateStock_Sap` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminCrateStock_Sap`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminCrateStock_Sap`(
 var_method varchar(100),
 var_dealer_code varchar(20),
 var_start_date varchar(50),

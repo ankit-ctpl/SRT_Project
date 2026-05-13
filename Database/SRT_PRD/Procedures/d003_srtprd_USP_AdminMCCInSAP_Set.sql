@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminMCCInSAP_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminMCCInSAP_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminMCCInSAP_Set`(
 	var_Method_Name longtext,
     var_Org_Id varchar(10),
     var_InvoiceData longtext,

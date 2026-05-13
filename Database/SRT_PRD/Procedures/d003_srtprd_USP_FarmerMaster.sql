@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_FarmerMaster` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_FarmerMaster`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_FarmerMaster`(
     var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     var_ParentField_Id varchar(20)

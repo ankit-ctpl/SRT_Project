@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminDashboard` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminDashboard`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminDashboard`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
     var_User_Id varchar(20),

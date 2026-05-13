@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `Test_Run_Rate_2` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `Test_Run_Rate_2`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `Test_Run_Rate_2`()
 BEGIN
 	SET SQL_SAFE_UPDATES = 0;
 

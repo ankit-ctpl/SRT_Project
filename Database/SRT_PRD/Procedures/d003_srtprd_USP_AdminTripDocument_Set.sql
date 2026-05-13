@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminTripDocument_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminTripDocument_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminTripDocument_Set`(
 	var_Method_Name varchar(255),
     var_Org_Id varchar(10),
 	var_TripDocument_Id varchar(20),

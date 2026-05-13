@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminIssueCrateTime` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminIssueCrateTime`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminIssueCrateTime`(
 var_Org_Id varchar(20),
 var_Dealer_Code varchar(20),
 var_Dealer_Name varchar(100),

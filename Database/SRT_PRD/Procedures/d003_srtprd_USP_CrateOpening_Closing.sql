@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_CrateOpening_Closing` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_CrateOpening_Closing`()
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_CrateOpening_Closing`()
 BEGIN
 
 SET SQL_SAFE_UPDATES = 0;

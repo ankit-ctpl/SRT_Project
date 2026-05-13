@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `test_2` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `test_2`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `test_2`(
     IN `var_org_id` VARCHAR(10),
     IN `var_MCCType_Id` TEXT,
     IN `var_ReportPeriod` VARCHAR(50),

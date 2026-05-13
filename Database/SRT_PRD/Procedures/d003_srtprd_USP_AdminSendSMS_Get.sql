@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminSendSMS_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminSendSMS_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminSendSMS_Get`(
 	IN `var_Method_Name` varchar(255),
 	IN `var_Org_Id` varchar(10),
 	IN `var_MilkCollectionDairy_Id` longtext

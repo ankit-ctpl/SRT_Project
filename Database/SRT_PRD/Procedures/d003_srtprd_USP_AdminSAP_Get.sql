@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminSAP_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminSAP_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminSAP_Get`(
 var_Method_Name varchar(255),
 var_Org_Id varchar(255)
 )

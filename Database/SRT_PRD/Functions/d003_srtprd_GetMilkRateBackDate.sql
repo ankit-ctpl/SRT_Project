@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `GetMilkRateBackDate` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `GetMilkRateBackDate`(	
+CREATE DEFINER=`root`@`localhost` FUNCTION `GetMilkRateBackDate`(	
 	var_Org_Id varchar(20),
 	var_MCC_Id varchar(20),
     var_CollectionShift_Id varchar(20),

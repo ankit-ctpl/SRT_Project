@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_IssueCansToMcc` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_IssueCansToMcc`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_IssueCansToMcc`(
 Var_Method_Name varchar(20),
 Var_Org_Id varchar(20),
 Var_Trip_Id varchar(20),

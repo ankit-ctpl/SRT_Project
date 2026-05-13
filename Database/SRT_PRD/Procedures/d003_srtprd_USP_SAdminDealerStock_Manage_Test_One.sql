@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminDealerStock_Manage_Test_One` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminDealerStock_Manage_Test_One`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminDealerStock_Manage_Test_One`(
 )
 proc_Exit: BEGIN
         

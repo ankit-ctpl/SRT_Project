@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_Temp` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_Temp`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_Temp`(
 	var_Org_Id varchar(20),
 	var_MCC_Id varchar(20),
     var_CollectionShift_Id varchar(20),

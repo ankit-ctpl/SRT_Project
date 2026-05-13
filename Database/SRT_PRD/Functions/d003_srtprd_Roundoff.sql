@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `Roundoff` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `Roundoff`(
+CREATE DEFINER=`root`@`localhost` FUNCTION `Roundoff`(
 var_Method varchar(50),
 var_input decimal(8,3)
 ) RETURNS decimal(8,1)

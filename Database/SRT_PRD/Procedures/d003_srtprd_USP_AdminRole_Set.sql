@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminRole_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminRole_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminRole_Set`(
 	IN `var_Method_Name` varchar(20),
 	IN `var_Org_Id` varchar(10),
 	IN `var_Role_Id` varchar(20),

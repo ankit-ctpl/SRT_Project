@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AgentMusterCycles_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AgentMusterCycles_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AgentMusterCycles_Set`(
 	var_Method_Name varchar(50),
 	var_Org_Id varchar(20),
     var_User_Id varchar(20),

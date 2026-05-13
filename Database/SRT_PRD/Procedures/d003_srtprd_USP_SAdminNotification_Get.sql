@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_SAdminNotification_Get` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_SAdminNotification_Get`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_SAdminNotification_Get`(
 	var_Org_Id VARCHAR(10),
 	var_Method_Name VARCHAR(45),
 	var_Date LONGTEXT,

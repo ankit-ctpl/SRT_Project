@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP FUNCTION IF EXISTS `GetMusterCycleDates` ;;
-CREATE DEFINER=`appuser`@`%` FUNCTION `GetMusterCycleDates`(
+CREATE DEFINER=`root`@`localhost` FUNCTION `GetMusterCycleDates`(
     New_MCC_Id varchar(255),
     New_Created_On DATETIME
 ) RETURNS longtext CHARSET utf8mb4

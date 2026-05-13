@@ -7,7 +7,7 @@
 
 DELIMITER ;;
 DROP PROCEDURE IF EXISTS `USP_AdminDistrict_Set` ;;
-CREATE DEFINER=`appuser`@`%` PROCEDURE `USP_AdminDistrict_Set`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `USP_AdminDistrict_Set`(
 	var_Method_Name varchar(20),
     var_Org_Id varchar(10),
     var_State_Id varchar(20),
